@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/style.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Componente de resumo de resultados</title>
+
+</head>
+
+<body>
+
+  <main>
+    <section class="left-side">
+      <h2 class="title">Your Result</h2>
+      <div class="circle">
+        <h1 class="result" data-numero>76</h1>
+        <p>of 100</p>
+      </div>
+      <p><b>Great</b></p>
+      <p class="info">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="right-side">
+      <h2 class="title">Summary</h2>
+
+      <ul>
+        <li class="reaction">
+          <span>
+            <img src="assets/images/icon-reaction.svg" alt="">
+            <p>Reaction</p>
+          </span>
+          <span>
+            <p class="color-pb"><b data-numero>80</b> / 100</p>
+          </span>
+        </li>
+
+        <li class="memory">
+          <span>
+            <img src="assets/images/icon-memory.svg" alt="">
+            <p>Memory</p>
+          </span>
+
+          <span>
+            <p class="color-pb"><b data-numero>92</b> / 100</p>
+          </span>
+        </li>
+
+        <li class="verbal">
+          <span>
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <p>Verbal</p>
+          </span>
+          <span>
+            <p class="color-pb"><b data-numero>61</b> / 100</p>
+          </span>
+        </li>
+
+        <li class="visual">
+          <span>
+            <img src="assets/images/icon-visual.svg" alt="">
+            <p>Visual</p>
+          </span>
+          <span>
+            <p class="color-pb"><b data-numero>72</b> / 100</p>
+          </span>
+        </li>
+
+      </ul>
+
+      <button class="btn">Continue</button>
+    </section>
+  </main>
+
+</body>
+<script src="script/anima-numero.js"></script>
+
+</html>
