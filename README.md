@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [](https://www.frontendmentor.io/solutions/results-summary-component-9ZdLlGKLmu)
 - Live Site URL: [](https://raphaelsiqueiira.github.io/results-summary-component/)
 
 ## My process
